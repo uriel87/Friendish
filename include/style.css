@@ -1100,8 +1100,11 @@ label {
 .timeGuestCome {
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    width: 120%;
+    width: 120%;   
+    bottom: 20px;
 }
+
+
 
 
 .timeGuestCome li {
@@ -1893,6 +1896,7 @@ label {
 	    background-color: #F5F5F5;
 	    margin-bottom: 40px;
 	    padding: 20px 10px;
+	    height: 280px;
 	}
 
 
