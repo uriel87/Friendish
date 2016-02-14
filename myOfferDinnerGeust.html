@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My offer dinner</title>
+		<meta charset="UTF-8">
+		<script src="include/jquery-2.1.4.js"></script>
+		<link href="include/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="include/style.css">
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<button id="menuBtn">
+				<span class="fa fa-bars fa-2x"></span>
+			</button>
+			<a href="index.html" id="logo"></a>
+			<nav>
+				<ul id="navMobile">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="myProfile.php">My profile</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+				<button class="searchBtn">
+					<span class="fa fa-search fa-2x"></span>
+				</button>
+			</nav>
+			<div class="clear"></div>
+			<aside class="invis">
+				<div id="menuHideBlock">
+					<button id="imgMenuHide"></button>
+				</div>
+				<section class="wrapper">
+					<form action="reasultSearch.php" method="get" role="form">
+						<div class="searchBlock">
+							<label id="topSearch">
+								<input type="text" list="indexCategory" name="category" placeholder="What do you want to see?" id="searchBox">
+								<datalist class="icon" id="indexCategory">
+									<option value="Pubcrawl" label="Pub crawl"></option>
+									<option value="Sport" label="Sport"></option>
+									<option value="Culture" label="Culture"></option>
+									<option value="Tracking" label="Tracking"></option>
+									<option value="Family" label="Family"></option>
+									<option value="Safary" label="Safary"></option>
+								</datalist>
+							</label>
+							<label>
+								<input id="whereBox" type="text" name="place" placeholder="Where do you want to go?" />
+							</label>
+							<label>
+								<select id="guestBox" name="guestNum">
+									<option value="1">1 Guest</option>
+									<option value="2">2 Guests</option>
+									<option value="3">3 Guests</option>
+									<option value="4">4 Guests</option>
+								</select>
+							</label>
+							<label>
+								<input id="checkInBox" name="CheckIn" placeholder="Check In" type="text" class="icon">
+							</label>
+							<label>
+								<input id="checkOutBox" name="CheckOut" placeholder="Check Out" type="text" class="icon">
+							</label>
+							<button type="submit">Search</button>
+							<div class="clear"></div>
+						</div>
+					</form>
+				</section>
+			</aside>
+		</header>
+		<main class="wrapper">
+			<article id="navArtProfile">
+					<nav>
+						<ul>
+							<li><a href="myProfile.php">Profile</a></li>
+							<li><a href="myOfferDinner.html">Offers</a></li>
+							<li><a href="inboxUser.html">Inbox</a></li>
+							<li><a href="myProfile.php">Settings</a></li>
+						</ul>
+					</nav>
+			</article>
+			<article id="artOfferDish">
+				<section id="offerBoxes">
+					<section class="offerBoxDish">
+						<section class="pictureOffer">
+								<img src="images/profilePicCircle_2_100.png" class="img-circle" alt="name" title="name">
+								<h4>My name</h4>
+						</section>
+						<section class="timeGuestCome">
+							<ul>
+								<li>
+									<div class="panel panel-default offerBoxPanel">
+										<div class="panel-heading">Category</div>
+										<div class="panel-body">sport</div>
+									</div>
+								</li>
+								<li>
+									<div class="panel panel-default offerBoxPanel">
+										<div class="panel-heading">Guests</div>
+										<div class="panel-body">2</div>
+									</div>
+								</li>
+								<li>
+									<div class="panel panel-default offerBoxPanel">
+										<div class="panel-heading">Check in</div>
+										<div class="panel-body">1/1/2016</div>
+									</div>
+								</li>
+								<li>
+									<div class="panel panel-default offerBoxPanel">
+										<div class="panel-heading">Check out</div>
+										<div class="panel-body">1/1/2016</div>
+									</div>
+								</li>
+							</ul>
+						</section>
+					</section>
+				</section>
+			</article>
+			<article id="myGuestOffer">
+				<form action="#" method="get" role="form">
+					<section class="offer">
+					 <input type="checkbox" name="dish" value="ssssssss"/>
+						<section class="discriptionDish">
+							<h3>Feijoada</h3>
+							<p>Feijoada (pronounced fay-ZWAH-da) is a delicious stew of pork and black beans that's traditionally served over rice with fresh orange slices. In Brazil, this dish is often served on special occasions, but preparing it in a slow cooker makes it possible to serve this rich dish on the busiest weeknights.</p>
+							<a class="ShowMore"><i class="fa fa-plus"></i> Show more</a>
+						</section>
+						<section class="ingridientDish">
+							<h4>Ingridient</h4>
+							<section class= "ingridientSec">
+								<ul>
+									<li>Portuguese smoked sausage: 225 grams</li>
+									<li>Other smoked sausage (can be 'paio' sausage): 225 grams</li>
+									<li>Smoked pork ribs: 225 grams</li>
+									<li>Salted pork ears: 225 grams</li>
+									<li>Salted pork tail: 225 grams</li>
+									<li>Lean bacon (in one piece, rind removed): 225 grams</li>
+									<li>Smoked pork tongue (optional): 114 grams</li>
+									<li>Jerked beef: 225 grams</li>
+									<li>Pork trotter, blanched and scraped, if necessary: 1</li>
+									<li>Pork shoulder: 225 grams</li>
+								</ul>
+							</section>
+						</section>
+						<section class="preparationDish">
+							<h4>preparation method</h4>
+							<p>Soak the smoked and salted meats in a large pan overnight.
+								The next morning, drain, rinse, and soak again until ready to cook.
+								In a large heavy stock pot, heat the oil over medium-low heat.
+								Add the onions and cook, until they are softened and translucent.
+								Add the garlic and cook for 3 minutes more, until the aroma is released.
+								Tie the bay leaves, and add it to the pan, along with the dried soaked meats, fresh meats, and the water.
+								Bring slowly to a boil over medium heat, then reduce the heat and skim the fats and scum from the top.
+								Cook for 1 hour, then add the beans, return to a simmer, and again skim any scum from the top.
+								Simmer for another hour.
+								As each piece of meat becomes forktender, remove it.
+								Place the cooked meats on a platter, cover with aluminum foil, and keep warm in a low oven.
+								Remove all the meat and skin from the pigs trotter and dice it.
+								Discard the bone and add the meat to the beans.
+								Cut the jerked beef into half a inch dice and also return it to the beans.
+								Continue cooking the beans for 20 minutes more, or until tender.
+								Remove any fat or gristle from the remaining cuts of meat, then cube or slice it into bitesized pieces.
+								Arrange the sliced sausages, pork pieces and bacon on one side of a large heated platter and place the beans on the other side.
+								Serve hot, accompanied by stewed kale, cooked white rice, fried pork lard and orange segments.
+							</p>
+						</section>
+						<section class="preparationDish">
+							<img src="images/Feijoada.jpg" alt="Feijoada" title="Feijoada">
+						</section>
+						<a class="ShowLess"><i class="fa fa-minus"></i> Show less</a>
+					</section>
+					<section class="offer">
+					 <input type="checkbox" name="dish" value="ssssssss"/>
+						<section class="discriptionDish">
+							<h3>Mushroom Risotto</h3>
+							<p>mushroom risotto recipe is given a rich boost with the addition of truffle oil and Parmesan. For the mushrooms, use a selection of wild mushrooms or button mushrooms, and if making this for a vegetarian, replace the Parmesan with a cheese free of animal rennet.</p>
+							<a class="ShowMore"><i class="fa fa-plus"></i> Show more</a>
+						</section>
+						<section class="ingridientDish">
+							<h4>Ingridient</h4>
+							<section class= "ingridientSec">
+								<ul>
+									<li>Chicken stock, recipe follows, or canned low-sodium chicken broth: 5-6 cups</li>
+									<li>Olive oil: 1 tablespoon</li>
+									<li>Unsalted butter: 2 tablespoons</li>
+									<li>Finely chopped shallots: 1/2 cup</li>
+									<li>Minced garlic: 1 teaspoon</li>
+									<li>Arborio rice: 2 cups</li>
+									<li>Assorted mushrooms (wiped clean and thinly sliced, without stems) :340 grams</li>
+									<li>Chopped fresh thyme: 1 teaspoon</li>
+									<li>Dry white wine: 1 cup</li>
+									<li>Salt: 1/2 teaspoon</li>
+								</ul>
+							</section>
+						</section>
+						<section class="preparationDish">
+							<h4>preparation method</h4>
+							<p>In a medium saucepan, bring the stock to a simmer over medium heat. Reduce the heat to very low to keep hot.
+								In a large heavy saucepan, heat the oil and melt the butter over medium-high heat. Add the shallots and garlic, and cook, stirring until fragrant and soft, about 3 minutes. Add the mushrooms and cook, stirring, until wilted and their liquid is evaporated, 4 to 5 minutes. Add the rice and cook, stirring constantly, until the grains are opaque, about 1 minute. Stir in the thyme. Add the wine and cook, stirring, until nearly all evaporated. Add 3/4 cup of the stock, the salt, and pepper. Cook, stirring constantly, until the stock is nearly all evaporated. Continue adding more stock 1/2 cup at a time as the previous addition is nearly absorbed, until the rice is tender and the risotto is creamy, 18 to 20 minutes. Stir in cream, 1/2 cup of the cheese, and the parsley and mix well.
+								Remove from the heat and adjust the seasoning, to taste. If desired, stir in truffle oil to taste.
+								Serve immediately, topping each portion with a sprinkling of the remaining cheese.
+							</p>
+						</section>
+						<section class="preparationDish">
+							<img src="images/Mushroom Risotto.jpg" alt="Mushroom Risotto" title="Mushroom Risotto">
+						</section>
+						<a class="ShowLess"><i class="fa fa-minus"></i> Show less</a>
+					</section>
+					<section class="offer">
+					 <input type="checkbox" name="dish" value="ssssssss"/>
+						<section class="discriptionDish">
+							<h3>Açaí Na Tigela </h3>
+							<p>açaí in the bowl is a typical Brazilian dish made of frozen and mashed açaí palm fruit. It is served as a smoothie in a bowl or glass, and is commonly topped with granola and banana, and then mixed with other fruits and guaraná syrup.Açaí na tigela is popular all over Brazil, but mainly in Pará, Rio de Janeiro, Florianópolis, São Paulo, Goiás and along the northeastern coast, where it is sold in kiosks lining the beach promenade and in juice bars throughout the cities.</p>
+							<a class="ShowMore"><i class="fa fa-plus"></i> Show more</a>
+						</section>
+						<section class="ingridientDish">
+							<h4>Ingridient</h4>
+							<section class= "ingridientSec">
+								<ul>
+									<li>Frozen açaí puree, thawed slightly (about 1/3 cup) (look for "smoothie packs" in the freezer section of health food stores): 200 grams</li>
+									<li>Bananas: 2</li>
+									<li>Sugar: 1 tablespoon</li>
+									<li>Salted pork ears: 225 grams</li>
+									<li>Frozen passion fruit puree (optional) or orange juice: 1/4 cup</li>
+									<li>Granola: 1/4 cup</li>
+								</ul>
+							</section>
+						</section>
+						<section class="preparationDish">
+							<h4>preparation method</h4>
+							<p>Place the frozen açaí and the passion fruit purée in a blender, along with one banana, the orange juice (if using), and the sugar. Blend until smooth and thick. The mixture should have the texture of a soft sorbet that you would eat with a spoon. Taste and 	add more sugar if desired, or a bit of lime juice for extra tartness.
+								Place the fruit mixture in a bowl. Slice the remaining banana and place the slices on top of the acai. Sprinkle granola over the fruit. 
+							</p>
+						</section>
+						<section class="preparationDish">
+							<img src="images/Aa Na Tigela.jpg" alt="Aa Na Tigela" title="Aa Na Tigela">
+						</section>
+						<a class="ShowLess"><i class="fa fa-minus"></i> Show less</a>
+					</section>
+					<section>
+						<button type="submit" id="btnAccept" value="Accept">Accept</button>
+					</section>
+				</form>
+			</article>
+		</main>
+		<footer>
+			<section id="navsLinks">
+				<nav>
+					<h2>Categories</h2>
+					<ul>
+						<li><a href="reasultSearch.php?category=Pubcrawl">Pub crawl</a></li>
+						<li><a href="reasultSearch.php?category=Sport">Sport</a></li>
+						<li><a href="reasultSearch.php?category=Culture">Culture</a></li>
+						<li><a href="reasultSearch.php?category=Tracking">Tracking</a></li>
+						<li><a href="reasultSearch.php?category=Family">Family</a></li>
+						<li><a href="reasultSearch.php?category=Safary">Safary</a></li>
+					</ul>
+				</nav>
+				<nav>
+					<h2>Connect us</h2>
+					<ul>
+						<li>Tel-Aviv, Rothschild 20</li>
+						<li>Israel</li>
+						<li>Email: Friendish@gmail.com</li>
+						<li>Tel: +9720000000000</li>
+					</ul>
+				</nav>
+				<div class=clear></div>
+			</section>
+			<section id="navSocialIcons">
+			<hr>
+			<h3>Follow us</h3>
+				<article class="social-links">
+					<ul>
+					    <li><a href="#"><i class="fa fa-facebook fa-5x"></i></a></li>
+					    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+					    <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+				    </ul>
+				</article>
+				<p><span class="fa fa-copyright"></span> Friendish, Inc</p>
+			</section>
+		</footer>
+		<script src="include/script.js"></script>
+		<div class="clear"></div>
+	</body>
+</html>
+

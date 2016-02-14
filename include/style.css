@@ -1,0 +1,1990 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+header, nav, section, footer, main, aside, article {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+	position: inherit; 
+	background-color: #d40000;
+}
+
+#headerNavBar{
+	height: 60px;
+	padding-top: 5px;
+}
+
+
+nav .searchBtn {
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+
+
+ #searchBtnIndex {
+ 	width: 50px;
+	height: 40px;
+    position: relative;
+    left: 20px;
+	top: 5px;
+    color: #ffffff;
+    background-color: #d50000;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.globalContainer {
+	width: 80%;
+	margin: auto;
+}
+
+
+
+header a:hover {
+	color: #C4C4C4;
+	text-decoration: none;
+}
+
+body{
+	background-color:#eff1ef; 
+	margin: auto;
+}
+
+footer {
+	background-color: #242424;
+	color:#FFFFFF;
+}
+
+
+footer hr {
+	margin: auto;
+	width: 100%;
+	border-top: 1px solid #909090;
+}
+
+
+footer p {
+	color:#ffffff;
+	text-align: center;
+}
+
+
+footer a {
+	color:#ffffff;
+	text-align: center;
+}
+
+
+footer a:hover {
+	color: #C4C4C4;
+}
+
+
+ul, li {
+	list-style: none;
+}
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+
+p {
+	color:#000000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+button {
+	outline: none;
+}
+
+
+#logo {
+	top: 10px;
+    position: relative;
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+	padding: 35px;
+	background-image: url("../images/logo1005050.png");
+	background-repeat: no-repeat;
+	float:left;
+}
+
+
+#menuBtn {
+	display: none;
+}
+
+
+#navMobile {
+	position: relative;
+	top: 17px;
+	padding: 5px 40px;
+	float: right;
+	list-style: none;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 1em;
+}
+
+#navMobile li {
+	display: inline-block;
+}
+
+#navMobile li:not(:last-child):after {
+	content: " | ";
+}
+
+#navMobile li a {
+	color: #FFFFFF;
+	font-size: 1em;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#navMobile li a:hover {
+	color: #C4C4C4;
+	text-decoration: none;
+}
+
+#navsLinks {
+	margin: auto;
+	width: 60%;
+}
+
+#navsLinks h2 {
+	font-size: 20px;
+}
+
+
+#navsLinks nav {
+	float:left;
+	width: 50%;
+	margin-top:25px;
+	position: relative;
+    left: 10%;
+}
+
+			
+#navSocialIcons {
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+	width: 65%;
+}
+
+
+.social-links {
+	margin: auto;
+}
+
+
+.social-links li {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 10px 5%;
+}
+
+
+.social-links a {
+    text-align: center;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	border-radius: 100%;
+} 
+
+
+.social-links a i {
+	font-size: 22px;
+	line-height: 30px;
+	color: #ffffff;
+	margin: 4px;
+}
+
+
+.social-links i:hover {
+	color: #909090;
+	border-color: #909090;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+/*
+* index.html
+*/
+
+#indexHeader {
+	background-image: url(../images/indexHeader.jpg);
+	background-repeat: no-repeat;
+	height: 350px;
+	display: inline-block;
+    width: 100%;
+    background-size: 100% 350px;
+}
+
+#indexHeader img {
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#indexHeaderFormWrapper {
+    background-color: rgba(0,0,0,0.6);
+    left: 0;
+    padding: 20px 0px;
+    position: absolute;
+    right: 0;
+}
+
+
+#indexHeaderForm {
+    top: 90px;
+    position: relative;
+}
+
+
+
+#indexHeaderFormtitle h1 {
+	text-align: center;
+	font-size: 60px;
+	color: #ffffff;
+	margin: 0px;
+	position: relative;
+	top:40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#indexHeaderFormtitle h3 {
+	text-align: center;
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0px;
+	position: relative;
+	top:30px;
+}
+
+#indexHeaderForm label {
+	float: left;
+	height: 40px;
+	margin-left: 10px;
+}
+
+
+#indexHeaderForm  #topSearch {
+    display: block;
+    width: 32%;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#indexCheckOutBox, #indexCheckInBox, #indexGuestBox {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    text-indent: 3%;
+    height: 40px;
+    width: 130px;
+}
+
+#indexWhereBox, #indexCategoryBox{
+    width: 250px;
+    font-size: 15px;
+    height: 40px;
+}
+
+
+
+button#searchBtnIndex.btn {
+	background-color: #d50000;
+	height: 40px;
+	color: #fff;
+}
+
+.glyphicon-search:before {
+    content: "\e003";
+    color: #ffffff;
+}
+
+#bodyIndex{
+	background-color:#eff1ef; 
+	text-align:center;
+	margin: auto;
+}
+
+
+.categoryBoxIndex{
+	display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 420px;
+    margin: 20px;
+    clear: both;
+}
+
+
+.categoryBoxIndex img{
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+    clear: both;
+    background-position: 50% 50%;
+}
+
+
+
+.categoryBoxIndex img:hover{
+	background-color: transparent;
+	opacity: 1;
+}
+
+
+
+.categoryBoxIndex div{
+	background: #000;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 70px;
+    height: 65px;
+    width: 100%;
+}
+
+
+.categoryBoxIndex h3{
+    text-align: center;
+    font-size: 37px;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+}
+
+#bodyIndex h1 {
+	margin: 20px 0px;
+}
+
+
+.positionNavBar{
+    position: relative;
+    left: 200px;
+    width: 80%;
+}
+
+
+/*
+* ProfileIndex.html
+*/
+
+
+#userSec {
+    display: inline-block;
+    padding: 75px 0px;
+    background: #eff1ef;
+    text-align: left;
+    width: 60%;
+    background-color: transparent;
+}
+
+
+.container #contractBox {
+	float: right;
+    height: 275px;
+    width: 275px;
+    padding: 25px;
+    margin: 75px 0px;
+    background-color: #ffffff;
+    border: 1px solid #242424;
+}
+
+
+#contractBox li {
+	border: 1px solid #242424;
+}
+
+
+#contractBox li a {
+	color: #242424;
+}
+
+
+#profileUser {
+    display: inline-block;
+    width: 100%;
+}
+
+
+#profileUser img {
+	float: left;
+	margin-right: 50px;
+	width: 200px;
+}
+
+
+#profileUser h2 {
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+#aboutMe {
+	text-align: left;
+	margin-top: 70px;
+}
+
+
+#aboutMe img {
+	margin-top: 20px;
+	width: 100%;
+	height: 350px;
+}
+     
+
+.list-group li {
+	margin-bottom: 45px;
+}
+
+
+.list-group i {
+	margin-right: 20px;
+	float: left;
+}
+
+
+
+
+#CategoryTripUser ol {
+	float: left;
+    margin-right: 5%;
+    padding:0px;
+    background-color: transparent;
+}
+
+
+#contractBox {
+	display: inline-block;
+}
+
+
+.backgroundDetailsUser {
+	background-color: #eff1ef;
+}
+
+.comment {
+    margin-top: 30px;
+    width: 60%;
+    clear: both;
+    text-align: left;
+    font-size: 1em;
+}
+
+
+.comment hr {
+	margin: auto;
+    margin-bottom: 30px;
+    background-color: #E0E0E0;
+    height: 1px;
+}
+
+
+#secComments {
+	text-align: center;
+	background-color: #ffffff;
+}
+
+
+#secComments h2 {
+	padding-top: 40px;
+    font-size: 40px;
+}
+
+
+.pictureComment {
+	float: left;
+	width: 15%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+
+.rightSecComment {
+	float: left;
+	width: 70%;
+}
+
+
+.rating {
+	float: left;
+	background-color: transparent; 
+}
+
+
+.rating ul li {
+	float: left;
+}
+
+
+i.fa-star, i.fa-star-o  {
+	position: relative;
+    color:#FFFB00;
+}
+
+
+.fa-star.yellow-border:after {
+    content: "\f006";
+    color: #FFFB00;
+    position: absolute;
+    left: 0;
+}
+
+.list-group {
+    box-shadow: none;
+}
+
+/*
+* ResultSearch.html
+*/
+
+
+.detailes_person_box{
+	display:inline-block;
+	position:relative;
+	width: 538px;
+	background-color: #ffffff;
+	clear:both;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	margin-right: 15px;
+}
+.detailes_person_box:before {
+	content: "";
+	display: block;
+	padding-top: 67%;
+}
+
+.content{
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.content a{
+	color:#242424; 
+}
+
+.content li{
+	color:#7E7E7E; 
+}
+
+.detailes_person_box img {
+	width: 100%;
+	height: 70%;
+}
+
+
+.detailes_person_box:nth-child(even) {
+	margin-right: 8px;
+}
+
+aside {
+	height: 200px;
+	background-color: #fff;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+.wrappLabel {
+	width: 300px;
+	display: inline-block;
+}
+
+
+
+.invis {
+	height: 0px;
+}
+
+
+.active {
+    right: 0px;
+}
+
+label {
+	margin-top: 32px;
+	float: left;
+}
+
+#topSearch {
+	display: block;
+	width: 100%;
+	float: none;
+}
+
+.searchBlock label:not(#topSearch) {
+	margin-right: 20px;
+    font-weight: normal;
+}
+
+#searchBox{
+	height: 30px;
+	width: 100%;
+}
+
+.searchBlock input {
+	border-radius: 5px;
+	box-shadow: 0px 2px 1px #000;
+	border-width: 1px;
+	padding-left: 16px;
+}
+
+.searchBlock select {
+	border-radius: 5px;
+	box-shadow: 0px 2px 1px #000;
+	border-width: 1px;
+}
+
+
+#checkInBox , #checkOutBox, #guestBox{
+	height: 30px;
+	width: 185px;
+}
+
+
+.searchBlock button {
+	background-color: #d40000;
+    height: 30px;
+    width: 165px;
+    margin-top: 32px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px #000;
+    color: #fff;
+}
+
+#whereBox{
+	height: 30px;
+	width: 300px;
+}
+
+#chooseCategory{
+	height: 30px;
+	width: 300px;
+}
+
+.searchBlock {
+	width: 100%;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#menuHideBlock {
+	width: calc((100% - 1130px) / 2);
+	height: 100%;
+	float: left;
+}
+
+#imgMenuHide{
+    background-image: url(../images/closePanel.png);
+    background-repeat: no-repeat;
+    display: block;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    background-color: transparent;
+	border:none;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.noResultContext {
+    margin: 150px 0px;
+    text-align: center;
+}
+
+.noResultContext a {
+	margin-top: 40px;
+    font-size: 20px;
+    color: #A09F9F;
+}
+
+
+
+.starLine {
+	padding-right: 10px;
+}
+
+.starLine li {
+	float: right;
+	margin-top: 16px;
+}
+
+.pPhotoName{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	height: 15%;
+	margin: 0px;
+	padding-left: 10px;
+}
+
+
+.pPlace {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding-left: 10px;
+    bottom: 20px;
+}
+
+.pPhotoDetails{
+	font-family: 'Open Sans', sans-serif;
+	height: 15%;
+	margin: 0px;
+	padding-left: 10px;
+}
+
+
+.container {
+	max-width: 1130px;
+}
+
+.wrapper {
+    padding: 15px;
+    margin: auto;
+    max-width: 1130px;
+    min-width: 400px;
+}
+
+
+
+/*
+* offerDinner.html
+*/
+
+
+#searchResultBox {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px 0px; 
+}
+
+#searchResultBox h1 {
+	margin: 70px 0px;
+}
+
+
+#searchResultBox li {
+	display: inline-block;
+	width: 20%;
+}
+
+
+#sendOfferDinner {
+    margin: auto;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sendOfferDinner form {
+    margin: 55px 0px;
+    width: 100%;
+    background-color: #fff;
+    padding: 5%;
+    text-indent: 10px;
+}
+
+
+#sendOfferDinner button {
+    width: 150px;
+    background-color: #d50000;
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    left: 550px;
+    top: 20px;
+}
+
+
+.InputSearchResultBoxPanel {
+	margin: 10px 0px;
+	padding: 5px 0px;
+}
+
+.InputSearchResultBoxPanel label {
+	float: none;
+	margin: 0px;
+}
+
+
+.InputSearchResultBoxPanel input {
+	width: 200%;
+	height: 30px;
+}
+
+.InputSearchResultBoxPanel textarea {
+    width: 300%;
+    height: 200px;
+}
+
+
+.InputSearchResultBoxPic {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+    margin: 10px 10px;
+    border:solid 1px;
+    border-color: #909090;
+}
+
+
+.InputSearchResultBoxPic label {
+    border:none;
+}
+
+.InputSearchResultBoxPic input {
+    display: block;
+    position: relative;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    font-size: 0px;
+    background-image: url(../images/plus.png);
+    border:none;
+}
+
+.InputSearchResultBoxPic p {
+    position: relative;
+    top: 130px;
+    left: 50px;
+}
+
+
+
+
+/*
+* inboxUser.html
+*/
+
+
+#navArtProfile {
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+#navArtProfile nav {
+	background-color: #A8A8A8;
+	height: 50px;
+	margin: 50px 50px;
+	font-size: 15px;
+}
+
+#navArtProfile nav ul {
+	padding: 15px;
+}
+
+#navArtProfile nav li {
+	display: inline-block;
+}
+
+#navArtProfile nav li:not(:last-child):after {
+	content: " | ";
+}
+
+#navArtProfile li a {
+	color: #000;
+}
+
+#navArtProfile li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#artMessege {.offerBox
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.wrraperPanel {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.panelInbox {
+	height: 170px;
+	font-family: 'Open Sans', sans-serif;
+	word-break:keep-all;
+}
+
+
+.timeMessegeInbox {
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.messegeContextInbox {
+	height: 150px;
+}
+
+.messegeContextInbox p {
+	overflow: hidden;
+	height: 75%;
+	word-break:keep-all;
+}
+
+
+.messegeFullInbox {
+	height: auto;
+	overflow: auto;
+}
+
+
+.panel-title a {
+	text-decoration: none;
+}
+
+
+.AllMessegeFullInbox {
+	display: none;
+}
+
+
+.closeInboxBtn {
+	background-image: url(../images/closeInboxBtn.png);
+	background-color: transparent;
+	display: none;
+	width: 40px;
+	height: 40px;
+	float: right;
+	border: none;
+}
+
+.messageInInbox {
+	clear: both;
+	max-width: 80%;
+	word-break:keep-all;
+	margin: 10px 20px;
+	margin-top: 20px;
+	padding: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.myMessage {
+	float: left;
+	background-color: #A5A5A5;
+	color: #000;
+}
+
+.myMessage p {
+    clear: both;
+}
+
+
+.guestMessage {
+	float: right;
+	background-color: #D8D8D8;
+	color: #333333;
+}
+
+
+.messageHour {
+	float: right;
+}
+
+.sendMessegInbox {
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+	clear: both;
+}
+
+.sendMessegInbox input {
+	height: 50px;
+    width: 300%;
+    margin: auto;
+    text-indent: 15px;
+}
+
+
+.sendMessegInbox button {
+    position: relative;
+	top: 120px;
+    left: 350px;
+    color: #fff;
+    background-color: #d50000;
+    border: 1px solid #5d0000;
+    width: 100px;
+    height: 40px;
+    box-shadow: 1px 1px 0px #3d0000;
+}
+
+
+
+/*
+* inboxUser.html
+*/
+
+
+.artOffer {
+	height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+
+.offerBox {
+	background-color: #F5F5F5;
+	width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 35px 20px;
+    color: #000;
+}
+
+
+.timeGuestCome {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 120%;
+}
+
+
+.timeGuestCome li {
+	display: inline-block;
+	width: 15%;
+}
+
+
+.offerBoxPanel {
+	margin: 10px 0px;
+}
+
+
+
+
+
+
+
+/*
+* myOfferDinnerGeust.html
+*/
+
+
+#artOfferDish{
+	height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+
+}
+
+#myGuestOffer {
+	width: 80%;
+    margin: auto;
+}
+
+
+
+.offerBoxDish {
+    background-color: #F5F5F5;
+    margin-bottom: 40px;
+    padding: 35px 20px;
+}
+
+
+.offer {
+    height: 230px;
+    background-color: #fff;
+    word-break: keep-all;
+    padding: 25px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+
+.offer input {
+	float: right;
+    position: relative;
+    top: 19px;
+    right: 20px;
+    width: 30px;
+    height: 20px;
+}
+
+
+.pictureOffer {
+	float: left;
+	width: 15%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.ShowMore {
+    font-size: 12px;
+    color: #6D6D6D;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+
+.ShowLess {
+	display: none;
+	font-size: 12px;
+    color: #6D6D6D;
+    position: relative;
+	cursor: pointer;
+}
+
+
+.fullOfferDish {
+	height: auto;
+	overflow: auto;
+}
+
+
+.discriptionDish {
+    margin-bottom: 150px;
+    height: 40px;
+}
+
+.discriptionDish p {
+    width: 80%;
+    height: 60px;
+    margin-bottom: 15px;
+    word-break: break-word;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+.ingridientDish {
+    display: none;
+    margin-bottom: 80px;
+}
+
+
+.preparationDish {
+    display: none;
+    margin-bottom: 80px;
+}
+
+
+.preparationDish {
+    display: none;
+    margin-bottom: 80px;
+}
+
+
+#btnAccept {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 800px;
+    margin: 25px 20px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #d50000;
+    box-shadow: 0px 2px 1px #000;
+    border: none;
+}
+
+
+
+
+/*
+* myProfile.html
+*/
+
+
+
+#asideNavMyProfile {
+	display: inline-block;
+    width: 25%;
+    height: 300px;
+    background: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+
+#asideNavMyProfile li {
+	margin: 40px;
+}
+
+#asideNavMyProfile ul li a{
+	color: #242424;
+}
+
+#asideNavMyProfile .currentPage {
+	 color: #A5A5A5;
+}
+
+#asideNavMyProfile .currentPage {
+	color: #FFFFFF;
+}
+
+
+#myProfileForm {
+	display: inline-block;
+    width: 70%;
+    height: 620px;
+    padding: 0px 30px;
+    color: #242424;
+    background: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#myProfileForm form {
+    height: auto;
+}
+
+#myProfileForm label {
+    border-bottom: solid 1px #ccc;
+    font-size: 15px;
+    color: #242424;
+    display:block;
+    width: 0px;
+}
+
+#myProfileForm input {
+    position: relative;
+    display: none;
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+    width: 300px;
+    bottom: 80px;
+    left: 125px;
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 12px;
+    height: 35px;
+}
+
+.labelInputSetting {
+    border-bottom: solid 1px #ccc;
+    font-size: 15px;
+    color: #242424;
+    font-weight: 600;
+    margin: 40px 0px;
+}
+
+.labelInputSetting p {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+}
+
+.labelInputSetting i {
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+
+.editInputSetting {
+    position: relative;
+    left: 50px;
+    color: #000;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.cancelInputSetting {
+	display: none;
+    position: relative;
+    left: 40px;
+    color: #000;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.currentSettingInput {
+    margin: 0px 100px;
+    color: #BDBDBD;
+}
+
+
+#btnChangSettings {
+	float: right;
+    background-color: #d50000;
+    border: none;
+    width: 100px;
+    color: #fff;
+    box-shadow: 1px 1px 0px #3d0000;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 590px) {
+
+
+	.globalContainer {
+	    width: 95%;
+	}
+
+	.wrapper {
+	     padding: none; 
+	}
+
+
+
+	#navsLinks, footer hr, #imgMenuHide {
+		display: none;
+	}
+
+	#navMobile {
+	    width: 0%;
+	    float: left;
+	    height: 350px;
+	    background: #d50000;
+	    font-size: 25px;
+	    overflow: hidden;
+	    position: absolute;
+	    z-index: 1;
+	    top: 70px;
+	    padding: 0px 0px;
+  	}
+
+	  #navMobile li {
+	  	float: none;
+	  	display: block;
+	  	margin: 20px 30px;
+ 	 }
+
+ 	   #navMobile li:not(:last-child):after {
+	  	content: "";
+	  }
+
+	  #navMobile li a {
+		color: #fff;
+		text-decoration: none;
+  	}
+
+	  ul span {
+	  	display: none;
+ 	 }
+
+
+	  #logo {
+		left: 34%;
+		padding: 35px;
+		margin: auto;
+	}
+
+
+	nav .searchBtn {
+		float: right;
+	    top: 20px;
+	    right: 20px;   
+	}
+
+
+	#menuBtn {
+	    display: block;
+	    float: left;
+	    cursor: default;
+	    left: 10px;
+	    top: 20px;
+	    position: relative;
+	    color: #ffffff;
+	    background-color: transparent;
+	    border: none;
+	}
+
+
+	aside {
+    	height: 435px;
+	}
+
+	label {
+		margin: 2% 20px;
+	}
+
+
+	footer {
+		float: left;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+
+	footer a {
+		cursor: default;
+	}
+
+
+
+	h2, h3 {
+		font-size: 20px;
+	}
+
+
+	#navSocialIcons {
+	    width: 100%;
+	}
+
+
+	/*
+	* ProfileIndex.html
+	*/
+
+
+	.rightSecComment, .comment {
+		width: 100%;
+	}
+
+	.pictureComment {
+		width: 25%;
+		position: relative;
+		left: 35%;
+	}
+
+
+	.container #contractBox {
+	    height: auto;
+	    position: relative;
+	    right: 35px;
+	    bottom: 40px;
+	    margin: auto;
+	    padding: initial;
+	    width: 85%;
+	}
+
+
+	#contractBox li {
+	    display: table-cell;
+	    padding: 0px;
+	}
+
+	#contractBox li a i{
+		text-indent:-9999px;
+	}
+
+
+	.group-item {
+		padding: 0px;
+	}
+
+
+	.container {
+		text-align: left;
+		margin: auto;
+	}
+
+	#userSec {
+		width: initial;
+	}
+
+
+
+	#profileUser img {
+		float: none; 
+		width: 200px;
+		position: relative;
+		left: 20%;
+	}
+
+
+	#secComments h2 {
+    	font-size: 20px;
+	}
+
+
+	/*
+	* indext.html
+	*/
+
+
+	#indexHeaderFormtitle h3, #indexHeaderFormtitle h1 {
+		display: none;
+	}
+
+
+	div.categoryBoxIndex {
+		 width: 74%;
+	}
+
+	#searchBox, #whereBox, #guestBox, #checkInBox, #checkOutBox {
+	    width: 275px;
+	    margin: 8px 0px;
+	    position: relative;
+	    right: 30px;
+	}
+
+
+	 .searchBlock button {
+	    width: 250px;
+	    margin: 25px 0px;
+	}
+
+
+	button.searchBtn.btn {
+		position: relative;
+		bottom: 100px;
+		left: 300px;
+		margin: auto;
+	}
+
+
+	#indexHeaderFormtitle h1 {
+		position: relative;
+		top: 35%;
+	}
+
+
+	#indexHeaderForm {
+		display: none;
+	}
+
+	#indexHeaderForm .form-control#indexWhereBox {
+		display: none;
+	}
+
+
+	#topSearch {
+	    width: 80%;
+	    margin-left: 5%;
+	    font-weight: normal;
+	}
+
+
+
+	/*
+	* ResultSearch.html.html
+	*/
+
+	.detailes_person_box {
+		width: 90%;
+		margin: 40px 0px;
+		left: 5%;
+		height: 262px;
+	}
+
+	.detailes_person_box img {
+	    height: 60%;
+	}
+
+	.pPhotoName {
+		font-size: 15px;
+	}
+
+	.pPlace {
+	    bottom: 5px;
+	}
+
+	.starLine i {
+	    font-size: 15px;
+	    position: relative;
+	    bottom: 5px;
+	}
+
+
+	/*
+	* offerDinner.html
+	*/
+
+
+	#sendOfferDinner {
+	    width: 90%;
+	}
+
+
+	.InputSearchResultBoxPanel input {
+	    width: 150%;
+	    height: 30px;
+	}
+
+
+	.InputSearchResultBoxPanel textarea {
+	    width: 150%;
+	}
+
+
+	.InputSearchResultBoxPic input {
+		left: 50px;
+		top: 30px;
+	}
+
+
+	#sendOfferDinner button {
+	    left: 130px;
+	    top: 0px;
+	    width: 80px;
+	}
+
+
+	#searchResultBox li {
+	    display: inline-block;
+	    width: 23%;
+	}
+
+
+
+	.panel-default>.panel-heading {
+		height: 50px;
+	}
+
+
+
+	/*
+	* myProfile.php
+	*/
+
+
+	#asideNavMyProfile {
+	     display: block; 
+	     width: 100%; 
+	     height: 50px;
+	     font-size: 10px; 
+	     float: none; 
+	     margin-bottom: 20px;
+	}
+
+
+
+
+	#asideNavMyProfile li {
+	    margin: 5px;
+	    float: left;
+	    margin: 15px 5px;
+	}
+
+
+
+	#asideNavMyProfile li:not(:last-child):after {
+		content: " | ";
+	}
+	    
+
+
+
+	#myProfileForm {
+	    display: inline-block;
+	    width: 100%;
+	    height: 1090px;
+	    padding: 0px 0px;
+	}
+
+
+	#myProfileForm label {
+        width: 0px;
+		position: absolute;
+	}
+
+
+	.labelInputSetting p {
+	    display: block;
+        width: 80%;
+	    margin: 25px;
+	}
+
+
+
+	.editInputSetting, .cancelInputSetting {
+	    left: 210px;
+	    bottom: 93px;
+	}
+
+
+	.labelInputSetting {
+	    border-bottom: solid 1px #ccc;
+	    font-size: 15px;
+	    color: #242424;
+	    font-weight: 600;
+	    margin: 40px 0px;
+	}
+
+	#myProfileForm input {
+	    width: 220px;
+	    bottom: 100px;
+	    left: 0px;
+	}
+
+
+
+	#btnChangSettings {
+	    float: none;
+	    position: relative;
+	    left: 23%;
+	    top: 30px;
+	    width: 150px;
+	}
+
+
+
+
+	/*
+	* myOfferDinner.html
+	*/
+
+
+
+	.offerBox {
+	    height: 450px;
+	    margin: auto;
+	    margin-bottom: 40px;
+	    padding: 25px 0px;
+	}
+
+
+
+	.timeGuestCome li {
+	    position: relative;
+	    top: 140px;
+	    right: 19%;
+	    width: 35%;
+	}
+
+
+
+
+
+	/*
+	* inboxUser.html
+	*/
+
+
+
+	#artMessege .panel-default>.panel-heading {
+		height: 300px;
+	}
+
+
+	.messegeContextInbox p {
+		display: inline-block;
+		width: 100%;
+		top: 130px;
+	}
+
+
+	#navArtProfile {
+		width: 100%;
+	}
+
+
+	#navArtProfile nav {
+	    margin: 50px 10px;
+	}
+
+
+	#artMessege {
+    	width: 100%;
+	}
+
+	.timeMessegeInbox {
+	    position: relative;
+	    top: 260px;
+	    right: 80px;
+	}
+
+	.sendMessegInbox input {
+   		width: 140%;
+	}
+
+	.sendMessegInbox button {
+	    top: 20px;
+	    left: 55px;
+	    width: 160px;
+	    font-size: 25px;
+	}
+
+
+	.lastDateMessage {
+		position: relative;
+		left: 20px;
+	}
+
+
+	.lastHourMessage {
+		position: relative;
+		bottom: 32px;
+		left: 150px;
+	}
+
+
+	.AllMessegeFullInbox {
+	    height: auto;
+	}
+
+
+
+	/*
+	* myOfferDinnerGeust.html
+	*/
+
+	#artOfferDish, #myGuestOffer {
+	    height: auto;
+	    width: 100%;
+	    margin: auto;
+	}
+
+	.offer {
+	    width: 90%;
+	}
+
+
+	.offerBoxDish {
+	    background-color: #F5F5F5;
+	    margin-bottom: 40px;
+	    padding: 20px 10px;
+	}
+
+
+	.discriptionDish {
+	    margin-bottom: 35px;
+	    height: auto;
+	}
+
+
+	.ingridientDish {
+	    margin-bottom: 0px 40px;
+	}
+
+
+
+	.offerBoxDish ul li {
+		width: 20%;
+	}
+
+
+
+}
+
+
+
+@media (min-width: 591px) and (max-width: 850px) {
+
+	/*
+	* ProfileIndex.html
+	*/
+
+	.comment {
+		width: 100%;
+	}
+
+	.container #contractBox {
+	    position: relative;
+	    right: 90px;
+	    bottom: 130px;
+	    width: 595px;
+	    height: 100px;
+	    margin: 0px;
+	    right: 65px;
+	    bottom: 50px;
+	}
+
+	#contractBox li {
+	    border: 1px solid #242424;
+	    display: inline-table;
+		}
+
+	.container {
+		text-align: left;
+		margin: auto;
+	}
+
+	#userSec {
+		width: 90%;
+	}
+
+	/*
+	* index.html
+	*/
+
+	#indexHeaderFormWrapper {
+	    display: none;
+	}
+
+	#indexHeader form {
+		width: 100%;
+	}
+
+	#indexHeaderForm {
+	    top: 85px;
+	    height: 200px;
+	}
+
+
+	/*
+	* offerDinner
+	*/
+
+
+	#sendOfferDinner {
+	    width: 90%;
+	}
+
+	.InputSearchResultBoxPanel textarea {
+	    width: 200%;
+	}
+
+}
+
+
+

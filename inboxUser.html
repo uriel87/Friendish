@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inbox user</title>
+		<meta charset="UTF-8">
+		<script src="include/jquery-2.1.4.js"></script>
+		<link href="include/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="include/style.css">
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<button id="menuBtn">
+				<span class="fa fa-bars fa-2x"></span>
+			</button>
+			<a href="index.html" id="logo"></a>
+			<nav>
+				<ul id="navMobile">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="myProfile.php">My profile</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+				<button class="searchBtn">
+					<span class="fa fa-search fa-2x"></span>
+				</button>
+			</nav>
+			<div class="clear"></div>
+			<aside class="invis">
+				<div id="menuHideBlock">
+					<button id="imgMenuHide"></button>
+				</div>
+				<section class="wrapper">
+					<form action="reasultSearch.php" method="get" role="form">
+						<div class="searchBlock">
+							<label id="topSearch">
+								<input type="text" list="indexCategory" name="category" placeholder="What do you want to see?" id="searchBox">
+								<datalist class="icon" id="indexCategory">
+									<option value="Pubcrawl" label="Pub crawl"></option>
+									<option value="Sport" label="Sport"></option>
+									<option value="Culture" label="Culture"></option>
+									<option value="Tracking" label="Tracking"></option>
+									<option value="Family" label="Family"></option>
+									<option value="Safary" label="Safary"></option>
+								</datalist>
+							</label>
+							<label>
+								<input id="whereBox" type="text" name="place" placeholder="Where do you want to go?" />
+							</label>
+							<label>
+								<select id="guestBox" name="guestNum">
+									<option value="1">1 Guest</option>
+									<option value="2">2 Guests</option>
+									<option value="3">3 Guests</option>
+									<option value="4">4 Guests</option>
+								</select>
+							</label>
+							<label>
+								<input id="checkInBox" name="CheckIn" placeholder="Check In" type="text" class="icon">
+							</label>
+							<label>
+								<input id="checkOutBox" name="CheckOut" placeholder="Check Out" type="text" class="icon">
+							</label>
+							<button type="submit">Search</button>
+							<div class="clear"></div>
+						</div>
+					</form>
+				</section>
+			</aside>
+		</header>
+		<main class="globalContainer">
+			<article id="navArtProfile">
+					<nav>
+						<ul>
+							<li><a href="myProfile.php">Profile</a></li>
+							<li><a href="myOfferDinner.html">Offers</a></li>
+							<li><a href="inboxUser.html">Inbox</a></li>
+							<li><a href="myProfile.php">Settings</a></li>
+						</ul>
+					</nav>
+			</article>
+			<article id="artMessege">
+				<div class="panel-group wrraperPanel" id="accordion">
+				    <div class="panel panel-default">
+				      <div class="panel-heading panelInbox">
+				      <button type="submit" class="closeInboxBtn"></button>
+				        <section class="panel-title">
+							<section class="pictureComment">
+								<img src="images/review3.jpg" class="img-circle" alt="name" title="name">
+								<h4>Michael Delon</h4>
+							</section>
+							<section class="timeMessegeInbox">
+								<p class="lastDateMessage">14/2/2016</p>
+								<p class="lastHourMessage">15:00</p>
+							</section>
+							<section class="messegeContextInbox">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</section>
+				        </section>
+						<section class="AllMessegeFullInbox">
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">Hi victor how are you?</p>
+								<p class="messageHour">13:53</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">Good, how are you?</p>
+								<p class="messageHour">13:54</p>
+							</div>
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">Can you tell us about you place?</p>
+								<p class="messageHour">13:55</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								<p class="messageHour">14:53</p>
+							</div>
+							<section class="sendMessegInbox">
+								<label>
+									<input type="text" placeholder="Messege"  class="icon">
+								</label>
+								<button type="submit">send</button>
+							</section>
+						</section>
+				      </div>
+				    </div>
+					<div class="panel panel-default">
+				      <div class="panel-heading panelInbox">
+				      <button class="closeInboxBtn"></button>
+				        <section class="panel-title">
+							<section class="pictureComment">
+								<img src="images/review2.jpg" class="img-circle" alt="name" title="name">
+								<h4>Dennis Berglin</h4>
+							</section>
+							<section class="timeMessegeInbox">
+								<p class="lastDateMessage">14/2/2016</p>
+								<p class="lastHourMessage">15:00</p>
+							</section>
+							<section class="messegeContextInbox">
+								<p><i class="fa fa-thumbs-o-up fa-2x"></i> Seeee you!!!</p>
+							</section>
+				        </section>
+						<section class="AllMessegeFullInbox">
+				        	<div class="messageInInbox guestMessage">
+								<p class="messegeContext">Victor what is goin on?</p>
+								<p class="messageHour">13:53</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">Good, how are you?</p>
+								<p class="messageHour">13:54</p>
+							</div>
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">Good, we want to come to your city, which kind of food do you like to eat?</p>
+								<p class="messageHour">13:55</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">sweet</p>
+								<p class="messageHour">14:53</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">solt</p>
+								<p class="messageHour">14:53</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">chilli</p>
+								<p class="messageHour">14:53</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">Whatever you want its ok for me</p>
+								<p class="messageHour">14:53</p>
+							</div>
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">OK great!!! we will cook somthing sweet</p>
+								<p class="messageHour">13:55</p>
+							</div>
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">it's a sort of pooding with chocolate</p>
+								<p class="messageHour">13:55</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">Ok great send me a request in the application i will agree</p>
+								<p class="messageHour">14:53</p>
+							</div>
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext"><i class="fa fa-thumbs-o-up fa-2x"></i> Seeee you!!!</p>
+								<p class="messageHour">13:55</p>
+							</div>
+							<section class="sendMessegInbox">
+								<label>
+									<input type="text" placeholder="Messege"  class="icon">
+								</label>
+								<button type="submit">send</button>
+							</section>
+						</section>
+				      </div>
+				    </div>
+				    <div class="panel panel-default">
+				      <div class="panel-heading panelInbox">
+				      <button  class="closeInboxBtn"></button>
+				        <section class="panel-title">
+							<section class="pictureComment">
+								<img src="images/review1.jpg" class="img-circle" alt="name" title="name">
+								<h4>George Bin</h4>
+							</section>
+							<section class="timeMessegeInbox">
+								<p class="lastDateMessage">14/2/2016</p>
+								<p class="lastHourMessage">15:00</p>
+							</section>
+							<section class="messegeContextInbox">
+								<p>good, how are you?</p>
+							</section>
+				        </section>
+						<section class="AllMessegeFullInbox">
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">hi victor (:</p>
+								<p class="messageHour">13:53</p>
+							</div>
+							<div class="messageInInbox myMessage">
+								<p class="messegeContext">hi, how are</p>
+								<p class="messageHour">13:54</p>
+							</div>
+							<div class="messageInInbox guestMessage">
+								<p class="messegeContext">good, how are you?</p>
+								<p class="messageHour">13:55</p>
+							</div>
+							<section class="sendMessegInbox">
+								<label>
+									<input type="text" placeholder="Messege"  class="icon">
+								</label>
+								<button type="submit">send</button>
+							</section>
+						</section>
+				      </div>
+				  </div>
+				</div>
+			</article>
+		</main>
+		<footer>
+			<section id="navsLinks">
+				<nav>
+					<h2>Categories</h2>
+					<ul>
+						<li><a href="reasultSearch.php?category=Pubcrawl">Pub crawl</a></li>
+						<li><a href="reasultSearch.php?category=Sport">Sport</a></li>
+						<li><a href="reasultSearch.php?category=Culture">Culture</a></li>
+						<li><a href="reasultSearch.php?category=Tracking">Tracking</a></li>
+						<li><a href="reasultSearch.php?category=Family">Family</a></li>
+						<li><a href="reasultSearch.php?category=Safary">Safary</a></li>
+					</ul>
+				</nav>
+				<nav>
+					<h2>Connect us</h2>
+					<ul>
+						<li>Tel-Aviv, Rothschild 20</li>
+						<li>Israel</li>
+						<li>Email: Friendish@gmail.com</li>
+						<li>Tel: +9720000000000</li>
+					</ul>
+				</nav>
+				<div class=clear></div>
+			</section>
+			<section id="navSocialIcons">
+			<hr>
+			<h3>Follow us</h3>
+				<article class="social-links">
+					<ul>
+					    <li><a href="#"><i class="fa fa-facebook fa-5x"></i></a></li>
+					    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+					    <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+				    </ul>
+				</article>
+				<p><span class="fa fa-copyright"></span> Friendish, Inc</p>
+			</section>
+		</footer>
+		<script src="include/script.js"></script>
+		<div class="clear"></div>
+	</body>
+</html>
+

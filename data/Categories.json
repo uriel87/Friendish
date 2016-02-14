@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Pub crawl",
+      "img": "pubCrawlCategoty"
+    },
+    {
+      "id": "2",
+      "name": "Sport",
+      "img": "sportCategoty"
+    },
+    {
+      "id": "3",
+      "name": "Culture",
+      "img": "culturalCategoty"
+    },
+    {
+      "id": "4",
+      "name": "Tracking",
+      "img": "trackingCategoty"
+    },
+    {
+      "id": "5",
+      "name": "Family",
+      "img": "familyCategoty"
+    },
+    {
+      "id": "6",
+      "name": "Safary",
+      "img": "safariCategoty"
+    }
+  ]
+}
